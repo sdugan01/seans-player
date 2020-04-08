@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlayerComponent } from './player/player.component';
 import { SongDetailComponent } from './song-detail/song-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
-    SongDetailComponent
+    SongDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
